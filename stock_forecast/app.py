@@ -21,7 +21,7 @@ st.markdown(
 st.markdown("<h1 style='text-align: center; color: black;'>Stock Market Predictor</h1>", unsafe_allow_html=True)
 st.markdown("<h2 style='text-align: center; color: orange;'>Project done by Kaarthic VR</h2>", unsafe_allow_html=True)
 
-model = tf.keras.models.load_model('Stock prediction model.keras')
+model = tf.keras.models.load_model('stock_forecast/Stock prediction model.keras')
 
 stock = st.text_input('Enter Stock Symbol', 'GOOG')
 
